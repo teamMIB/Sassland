@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* <============= HEADER START ============> */
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.align-center {
+  align-items: center;
+}
+
+header {
+  background-color: #7f56f5;
+  text-align: center;
+  color: white;
+}
+
+.logo {
+  width: 20%;
+  flex: 0 0 auto;
+}
+
+nav {
+  width: 80%;
+  flex: 0 0 auto;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+
+
+nav ul li a {
+  text-transform: uppercase;
+  padding: 30px;
+  font-size: 22px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+nav ul li :hover {
+  color: rgb(175, 64, 64);
+}
+
+.content {
+  padding-top: 150px;
+  padding-bottom: 200px;
+}
+
+header h1 {
+  margin-bottom: 20px;
+}
+header P {
+  font-size: 20px;
+  line-height: 30px;
+}
+/* <============= HEADER END ============> */
+
+/* <=========== SECTION START ==========> */
+
+.box {
+  width: 50%;
+  padding: 70px 46px;
+  box-sizing: border-box;
+}
+
+.box h2 {
+  margin-bottom: 15px;
+  margin-top: 10px;
+  color: #7f56f5;
+  font-size: 28px;
+}
+
+.box p {
+  color: rgb(66, 63, 63);
+  line-height: 37px;
+  font-size: 21px;
+}
+
+.big-img {
+  max-width: 100%;
+}
+
+.box a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: #7f56f5;
+  display: inline-block;
+  margin-top: 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.small-img{
+  max-width: 100%;
+}
+
+/* <============= SECTION END ============> */
+
+/* <============= FOOTER START ============> */
+footer {
+  margin-top: 137px;
+  padding-top: 120px;
+  background-color: #f5f5fa;
+}
+
+.col {
+  width: 25%;
+  flex: 0 0 auto;
+}
+
+footer a {
+  color: rgb(9, 10, 70);
+  font-size: 19px;
+  font-weight: 400;
+}
+footer p {
+  font-size: 16px;
+  line-height: 1.8;
+  padding-top: 10px;
+}
+
+footer ul :hover {
+  color: brown;
+}
+
+
+
+.col-padding {
+  padding: 27px;
+}
+
+.col-content{}
+
+.col-content ul li{
+
+}
+.col-content ul{
+
+}
+.col-content ul li a{
+  line-height: 2.4;
+  font-size: 16px;
+}
+.col-title{
+
+}
+
+.col-title a{
+
+}
+.col-title h3{
+  font-size: 18px;
+}
+
+.foot-banner{}
+.foot-banner img{}
+/* <============= FOOTER END ============> */
